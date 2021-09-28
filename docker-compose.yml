@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sample-payment:
+    restart: always
+    build: .
+    ports:
+      - "8000:443"
